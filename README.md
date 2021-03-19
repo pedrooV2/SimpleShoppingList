@@ -1,4 +1,4 @@
-# SimpleShoppingList
+# :globe_with_meridians: SimpleShoppingList
 Projeto Single Page Application (SPA), desenvolvido com a ASP.NET Web Application (.NET Framework)
 
 ### Front End
