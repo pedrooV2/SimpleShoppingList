@@ -1,0 +1,32 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <link href="styles.css" rel="stylesheet" />
+</head>
+<body>
+
+    <!-- First View-->
+    <div id="createListDiv">
+        <h1>Simple Shopping List</h1>
+        <input type="text" placeholder="New List" id="shoppingListName"/>
+        <button onclick="createShoppingList()">Create</button>
+    </div>
+
+    <!-- Second View-->
+    <div id="shoppingListDiv" style="display: none">
+        <h1 id="shoppingListTitle">New List</h1>
+        <input type="text" placeholder="New Item" id="newItemName" />
+        <button onclick="addItem()">Add</button>
+        <ul id="shoppingListItems">
+            <li>Salad <button>D</button>  <button>C</button> </li>
+            <li>Milk <button>D</button>  <button>C</button> </li>
+            <li>Tomatoes <button>D</button>  <button>C</button> </li>
+        </ul>
+    </div>
+
+    <script src="Scripts/jquery-3.5.1.min.js"></script>
+    <script src="Scripts/app.js"></script>
+</body>
+</html>
